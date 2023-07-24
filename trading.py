@@ -34,7 +34,7 @@ class TradingBot:
         if not candles:
             return
 
-        # Calculate Simple Moving Average (SMA)
+        # Calculate Simple Moving Average (SMA):
         sma = self.calculate_sma(candles, 10)
 
         # Implement strategy logic
